@@ -13,13 +13,13 @@ In this framework I have used protractor and Jasmine jasmine frame work and to m
 
 ## Test Scenarion
 
-1 Registration Step 1(Signup) Test Cases:
-1.1 When user is on login page ,
-√ Verify that the email is mandatory field for registration step-1
-√ Verify that the email field require valid email format input for registration step-1
-√ Verify that existing email is not allowed for registration step-1
-√ Verify that valid email takes control to step-2 of registration
+1 Registration Step 1(Signup) Test Cases:  
+1.1 When user is on login page :  
+√ Verify that the email is mandatory field for registration step-1  
+√ Verify that the email field require valid email format input for registration step-1  
+√ Verify that existing email is not allowed for registration step-1  
+√ Verify that valid email takes control to step-2 of registration  
 
-2 Registration Step 2(Account Creation) Test Cases:
-2.1 When user is on account creation page after providing valid email,
-√ Verify that entering all valid entries create the account successfully
+2 Registration Step 2(Account Creation) Test Cases:  
+2.1 When user is on account creation page after providing valid email:  
+√ Verify that entering all valid entries create the account successfully  
