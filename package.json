@@ -1,0 +1,30 @@
+{
+  "name": "automation_practice",
+  "version": "1.0.0",
+  "description": "Automation framework with protractor and jasmine",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qurratulkhan/automationpractice.git"
+  },
+  "keywords": [
+    "javascript",
+    "protractor",
+    "jasmine"
+  ],
+  "author": "qurratul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qurratulkhan/automationpractice/issues"
+  },
+  "homepage": "https://github.com/qurratulkhan/automationpractice#readme",
+  "dependencies": {
+    "jasmine": "^3.9.0",
+    "jasmine-spec-reporter": "^7.0.0",
+    "protractor": "^7.0.0"
+  },
+  "scripts": {
+    "test_webdriver_update": "webdriver-manager update",
+    "test": "protractor ./tests/protractor.conf.js"
+  }
+}
