@@ -1,4 +1,4 @@
-# Automationpractice
+# Automation Practice
 
 This repository is to Automate the Registration process on site :http://automationpractice.com/index.php
 The Registration Process have two step first is authentication of email and second step is filling all personal detail for account creation.
@@ -11,7 +11,7 @@ In this framework I have used protractor and Jasmine framework and to maintain t
 3. Update the webdriver manager using command "npm run test_webdriver_update"
 4. Run the test using command "npm run test"
 
-## Test Scenarion
+## Test Scenario
 
 1 Registration Step 1(Signup) Test Cases:  
 1.1 When user is on login page :  
