@@ -4,6 +4,7 @@ var spec;
 exports.config = {
   // The address of a running selenium server.
   seleniumAddress: 'http://localhost:4444/wd/hub',
+  //test suites that to be executed
   specs: ['./specs/registration/*.spec.js'],
 
   // capabilities like browserName, chromeOptions for webdriver instance.
@@ -23,7 +24,7 @@ exports.config = {
       xl: 10000
     }
   },
-  //test suites that to be executed
+  
 
   //jasmine node options
   jasmineNodeOpts: {
